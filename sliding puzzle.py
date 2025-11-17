@@ -65,7 +65,6 @@ def print_board(state):
         print(row)
     print()
 
-# Your custom starting state
 start_state = [[1,6,5],
                [7,3,8],
                [4,2,0]]
@@ -79,3 +78,4 @@ if solution:
         print_board(step)
 else:
     print("This puzzle has NO solution.")
+
